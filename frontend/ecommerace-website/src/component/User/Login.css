@@ -1,0 +1,60 @@
+.LoginBox>form ,.LoginBox{
+   display: flex;
+   flex-direction: column;
+   /* justify-content: center;
+   align-items: center; */
+   padding: 15px;
+   padding-top: 0px;
+   font-family: 'Courier New', Courier, monospace;
+}
+.LoginBox>h3{
+    text-align: center;
+}
+.LoginBox>h4{
+color: red;
+}
+.LoginBox>img{
+    text-align: center;
+    width: 120px;
+    height: 120px;
+    display: flex;
+    align-self: center;
+    border-radius: 50%;
+}
+.LoginBox>form>input{
+    padding: 15px;
+    border-radius: 5px;
+    margin-bottom: 15px;
+    cursor: pointer;
+}
+.LoginBox>form>input[type="submit"]{
+    margin-top: 30px;
+    background:rgba(70, 69, 69, 0.467);
+}
+.LoginBox>form>input[type="submit"]:hover{
+    margin-top: 30px;
+   background: #007DFE;
+color: white;
+}
+.Login>span{
+    font-family: 'Courier New', Courier, monospace;
+    color: #007DFE;
+    cursor: pointer;
+    margin-left: 7%;
+    border-bottom: 1px solid  #007DFE;
+}
+/* @media screen and (max-width: 600px) {
+   
+    .LoginBox {
+        padding-top: 5px;
+     }
+    .LoginBox>input{
+        padding: 10px;
+        border-radius: 5px;
+        margin-bottom: 10px;
+    }
+    .LoginBox>input[type="submit"]{
+        margin-top: 20px;
+    }
+
+} */

@@ -1,0 +1,41 @@
+.LoginSignUp{
+    display: flex;
+    justify-content: center;
+    margin-top: 10%;
+  
+
+}
+.LoginSignUpDiv{
+     border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.2);
+    box-shadow:0 4px 30px rgb(0,0,0,0.2);
+    backdrop-filter: blur(3px);
+height: auto;
+width: 35%;
+}
+.LoginSignUpDivBtn{
+    display: flex;
+    justify-content: center;
+}
+.LoginSignUpDivBtn>span{
+    padding: 20px;
+    text-align: center;
+    width: 100%;
+}
+
+.LoginSignUpDivBtn>span:hover{
+border-bottom: 3px solid rgb(11,127,245,.5);
+}
+.LoginSignUpContent{
+    padding: 10px;
+}
+
+@media screen and (max-width: 800px) {
+ .LoginSignUp{
+    margin-top: 30%;
+ }
+.LoginSignUpDiv{
+    width: 70%;
+}
+
+}

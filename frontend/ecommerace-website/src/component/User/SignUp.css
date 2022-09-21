@@ -1,0 +1,76 @@
+.signUpBox>form,.signUpBox {
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center;
+    align-items: center; */
+    padding: 15px;
+    padding-top: 0px;
+    font-family: 'Courier New', Courier, monospace;
+ }
+ .signUpBox>h3{
+     text-align: center;
+ }
+ .signUpBox>h4{
+color: red;
+}
+ .signUpBox>img{
+     text-align: center;
+     width: 120px;
+     height: 120px;
+     display: flex;
+     align-self: center;
+     border-radius: 50%;
+ }
+ .signUpBox>form>input{
+     padding: 15px;
+     border-radius: 5px;
+     margin-bottom: 15px;
+     cursor: pointer;
+ }
+.fileUpload{
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    
+}
+ .fileUpload>label{
+
+    cursor: pointer;
+    padding: 8px;
+    border-radius: 5px;
+     margin-bottom: 15px;
+    margin-top: 10px;
+    background:#077A03;
+      text-align: center;
+}
+
+.fileUpload>label>span{
+    font-size: 22px;
+    /* float: right; */
+}
+.fileUpload>input[type="file"]{  
+    display: none;
+}
+.fileUpload>img{
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+}
+ .signUpBox>form>input[type="submit"]{
+    cursor: pointer;
+     margin-top: 30px;
+     background:rgba(70, 69, 69, 0.467);
+ }
+ .signUpBox>form>input[type="submit"]:hover{
+     margin-top: 30px;
+    background: #007DFE;
+ color: white;
+ }
+
+ .signUp>span{
+    margin-left: 8%;
+    font-family: 'Courier New', Courier, monospace;
+    cursor: pointer;
+    color: red;
+    border-bottom: 1px solid red;
+ }

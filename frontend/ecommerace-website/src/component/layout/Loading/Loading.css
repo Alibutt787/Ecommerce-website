@@ -1,0 +1,17 @@
+
+
+.circle{
+    margin: 12px auto;
+    border-bottom: 2px solid black;
+    width: 12vh;
+    height: 12vh;
+    border-radius: 50%;
+    animation-name: rotate;
+    animation-duration: 1.5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+@keyframes rotate{
+    from{ transform: rotate(-360deg); }
+    to{ transform: rotate(360deg); }
+}
